@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Arrck Black Pay",
+    "slug": "arrck_black_pay",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "arrck_black_pay",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.huxly.arrckblackpay381903",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.huxly.arrckblackpay381903"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "7758f6de-f9af-4e18-bae9-ef85514cc53b"
+      }
+    },
+    "owner": "zinx343"
+  }
+}
